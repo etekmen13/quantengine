@@ -1,0 +1,3 @@
+[submodule "quantengine/vendor/spdlog"]
+	path = quantengine/vendor/spdlog
+	url = https://github.com/gabime/spdlog
