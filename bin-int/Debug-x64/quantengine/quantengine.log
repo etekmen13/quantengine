@@ -1,0 +1,12 @@
+﻿  log.cpp
+C:\quantengine\quantengine\src\quantengine\log.h(17,42): warning C4251: 'qe::log::s_CoreLogger': class 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of class 'qe::log'
+  (compiling source file 'src/quantengine/log.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.39.33519\include\memory(1525,7):
+  see declaration of 'std::shared_ptr<spdlog::logger>'
+  
+C:\quantengine\quantengine\src\quantengine\log.h(18,42): warning C4251: 'qe::log::s_ClientLogger': class 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of class 'qe::log'
+  (compiling source file 'src/quantengine/log.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.39.33519\include\memory(1525,7):
+  see declaration of 'std::shared_ptr<spdlog::logger>'
+  
+  quantengine.vcxproj -> C:\quantengine\bin\Debug-x64\quantengine\quantengine.dll
